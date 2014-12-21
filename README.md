@@ -34,7 +34,8 @@ The additional configurations are available in the slide tabs configuration:
 ```javascript
 $('.slidetabs').slidetabs({
   duration: 500,
-  easing: "easeInOutExpo"
+  easing: "easeInOutExpo",
+  startTab: 'tab-1'
 });
 ```
 
