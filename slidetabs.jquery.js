@@ -79,20 +79,6 @@
                 }
             },
             /**
-             * Trigger the content div to be resized to the height of the currently visible div.
-             * Don't resize while tabs are switching.
-             *
-             * @param toHide optionally resize to the largest of the visible tab and a passed tab, useful while tabs are switching and we want to resize to the height of the largest
-             */
-            triggerResize: function(toHide){
-                if(this.showLock || this.hideLock) return;
-                var height = slidetab.activeTab().height();
-                if(toHide){
-                    height = Math.max(height, toHide.height());
-                }
-                slidetab.content.height(height);
-            },
-            /**
              * get the currently visible content page
              */
             activeTab: function(){
