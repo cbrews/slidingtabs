@@ -45,11 +45,13 @@ The time it takes to switch tabs in ms (defaults to 500)
 The easing of switching tabs (defaults to "easeInOutExpo").
 See the [jQuery Easing page](http://api.jqueryui.com/easings/) for available options.
 
+#### startTab
+The id of the initial tab to show
+
 ## Dependencies
 
 * jQuery
 * jQuery UI
 
 ## Known Issues
-1. The slider uses absolute positioning so placing elements below the slider may cause issues.
-2. If you order the tabs and content pages differently you may get unexpected direction sliding behavior.
+1. If you order the tabs and content pages differently you may get unexpected direction sliding behavior.
