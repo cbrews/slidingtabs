@@ -27,9 +27,9 @@ The structure of the slide tabs is flexible, as long as it falls into this confi
 * `<nav>` must contain each tab name.  The navigation elements themselves are not restricted to a particular element type ( (I used `<h1>` elements, but you could use `<li>`, `<p>`, `<h3>`, etc), but each element must have a `data-tab` attribute referencing the ids of the elements in the content section.
 * `<div>` must contain each slidenav content page.  Like the navigation, the elements themselves are not restricted to any particular type (I used `<article>`, but you could use `<p>`, `<div>`, `<ul>`, etc), but they should be `display: block` and contain an id that references the navigation data-tab attributes.  
 
-### Additional configurations
+### Optional configurations
 
-The additional configurations are available in the slide tabs configuration:
+The additional optional configurations are available in the slide tabs configuration:
 
 ```javascript
 $('.slidetabs').slidetabs({
@@ -47,7 +47,7 @@ The easing of switching tabs (defaults to "easeInOutExpo").
 See the [jQuery Easing page](http://api.jqueryui.com/easings/) for available options.
 
 #### startTab
-The id of the initial tab to show
+The id of the initial tab to show. Defaults to the first tab.
 
 ## Dependencies
 
