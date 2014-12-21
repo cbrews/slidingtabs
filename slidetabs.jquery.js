@@ -26,7 +26,7 @@
     var switchTab = function(e){
       if(showLock || hideLock) return; // prevent multiple event firing
       var hideEl = c.children(':visible');
-      var showEl = c.children('#' + this.dataset.tab); // todo this line does not work in safari, this.dataset is not defined :((((((((((((
+      var showEl = c.children('#' + $(this).attr('data-tab'));
 
       c.height(Math.max(hideEl.height(),showEl.height())); 
       
