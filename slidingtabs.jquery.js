@@ -1,10 +1,10 @@
 /**
- * slidetabs
+ * slidingtabs
  * @author Chris Brousseau
  * @version 0.2
  */
 (function($){
-    $.fn.slidetabs = function(config){
+    $.fn.slidingtabs = function(config){
         var slidetab = {
             showLock: false,
             hideLock: false,

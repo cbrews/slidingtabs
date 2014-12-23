@@ -1,16 +1,16 @@
-# slidetabs
+# slidingtabs
 
-slidetabs is an easy-to-use jQuery plugin for horizontally sliding tabs.
+slidingtabs is an easy-to-use jQuery plugin for horizontally sliding tabs.
 
 Demo coming soon.
 
 ## Usage
 
-Install the slidetabs.jquery.js file and dependencies.
+Install the slidingtabs.jquery.js file and dependencies.
 
-The structure of the slide tabs is flexible, as long as it falls into this configuration:
+The structure of the sliding tabs is flexible, as long as it falls into this configuration:
 ```html
-<div id="slidenav"> <!-- you can use any element (not just div) for the container block -->
+<div id="container"> <!-- you can use any element (not just div) for the container block -->
   <nav>
     <h1 data-tab="tab-1">Page 1</h1>
     <h1 data-tab="tab-2">Page 2</h1>
@@ -20,19 +20,19 @@ The structure of the slide tabs is flexible, as long as it falls into this confi
     <article id="tab-2">My page 2 content</article>
   </div>
 </div>
-<script>$('#slidenav').slidetabs();</script>
+<script>$('#container').slidingtabs();</script>
 ```
 
 ### Required elements
 * `<nav>` must contain each tab name.  The navigation elements themselves are not restricted to a particular element type ( (I used `<h1>` elements, but you could use `<li>`, `<p>`, `<h3>`, etc), but each element must have a `data-tab` attribute referencing the ids of the elements in the content section.
-* `<div>` must contain each slidenav content page.  Like the navigation, the elements themselves are not restricted to any particular type (I used `<article>`, but you could use `<p>`, `<div>`, `<ul>`, etc), but they should be `display: block` and contain an id that references the navigation data-tab attributes.  
+* `<div>` must contain each content page.  Like the navigation, the elements themselves are not restricted to any particular type (I used `<article>`, but you could use `<p>`, `<div>`, `<ul>`, etc), but they should be `display: block` and contain an id that references the navigation data-tab attributes.  
 
 ### Optional configurations
 
-The additional optional configurations are available in the slide tabs configuration:
+The additional optional configurations are available in the sliding tabs configuration:
 
 ```javascript
-$('.slidetabs').slidetabs({
+$('.tabs').slidingtabs({
   duration: 500,
   easing: "easeInOutExpo",
   startTab: 'tab-1'
