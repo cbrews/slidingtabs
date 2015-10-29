@@ -1,0 +1,13 @@
+{
+  "name": "slidingtabs",
+  "version": "1.0.0",
+  "description": "Sliding tabs UI library",
+  "main": "slidingtabs.jquery.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christhebrews/slidingtabs.git"
+  },
+  "author": "Chris Brousseau <brousseau.chris@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/christhebrews/slidingtabs"
+}

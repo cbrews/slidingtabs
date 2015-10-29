@@ -10,6 +10,7 @@
             hideLock: false,
             easing: "easeInOutExpo",
             duration: 500,
+            effect: 'slide',
             init: function(el, config){
                 $.extend(this, config);
                 this.el = el;
@@ -51,7 +52,7 @@
                     this.setSlideMode(toShow, toHide);
 
                     toShow.show({
-                        effect: "slide",
+                        effect: this.effect,
                         easing: this.easing,
                         direction: direction.show,
                         duration: this.duration,
@@ -61,7 +62,7 @@
                         }
                     });
                     toHide.hide({
-                        effect: "slide",
+                        effect: this.effect,
                         easing: this.easing,
                         direction: direction.hide,
                         duration: this.duration,
