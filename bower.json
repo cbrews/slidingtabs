@@ -1,0 +1,23 @@
+{
+  "name": "slidingtabs",
+  "description": "Sliding tabs UI library",
+  "main": "slidingtabs.jquery.js",
+  "authors": [
+    "Chris Brousseau <brousseau.chris@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "jQuery",
+    "jQueryUI",
+    "tabs",
+    "animation",
+    "slide",
+    "navigation"
+  ],
+  "homepage": "https://github.com/cbrews/slidingtabs",
+  "moduleType": [],
+  "dependencies": {
+    "jquery-ui": "^1.11.4",
+    "jquery": "^2.2.1"
+  }
+}

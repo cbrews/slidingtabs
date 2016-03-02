@@ -5,9 +5,9 @@
   "main": "slidingtabs.jquery.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/christhebrews/slidingtabs.git"
+    "url": "git+https://github.com/cbrews/slidingtabs.git"
   },
   "author": "Chris Brousseau <brousseau.chris@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/christhebrews/slidingtabs"
+  "homepage": "https://github.com/cbrews/slidingtabs"
 }
